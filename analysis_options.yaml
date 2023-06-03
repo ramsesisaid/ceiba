@@ -1,0 +1,21 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    avoid_print: true  # Avoid using print statements for debugging
+    avoid_relative_lib_imports: true  # Avoid using relative imports for files in the lib directory
+    avoid_types_as_parameter_names: true  # Avoid using types as parameter names
+    avoid_unused_constructor_parameters: true  # Avoid unused constructor parameters
+    avoid_void_async: true  # Avoid using void in async methods
+    camel_case_types: true  # Use camel case for type names
+    constant_identifier_names: true  # Use UPPER_CASE for constant names
+    empty_catches: true  # Avoid empty catch blocks
+    lines_longer_than_80_chars: true  # Avoid lines longer than 80 characters
+    prefer_single_quotes: true  # Use single quotes for string literals
+    prefer_typing_uninitialized_variables: true  # Prefer typing uninitialized variables
+    sort_constructors_first: true  # Sort constructors first in a class
+    unnecessary_brace_in_string_interps: true  # Avoid unnecessary braces in string interpolations
+    unnecessary_const: true  # Avoid unnecessary const
+    unnecessary_new: true  # Avoid unnecessary new
+    unnecessary_null_aware_assignments: true  # Avoid unnecessary null-aware assignments
+    unnecessary_this: true  # Avoid unnecessary this
