@@ -1,4 +1,4 @@
-# Ceiba User-Post Flutter Application
+# Ceiba Test
 
 This is a simple Flutter application that fetches and displays user and post data from a remote source. The data is also stored locally using Hive.
 
@@ -32,26 +32,27 @@ This project follows a simple layered architecture:
 This project uses the following dependencies:
 
  
-dependencies:
-  flutter:
-    sdk: flutter
-  flutter_localizations:
-    sdk: flutter
-  cupertino_icons: ^1.0.2
-  flutter_launcher_icons: ^0.13.1
-  http: ^0.13.0
-  flutter_native_splash: ^2.3.0
-  provider: ^6.0.5
-  hive: ^2.2.3
-  hive_flutter: ^1.1.0
-  http: for performing HTTP requests.
-  provider: for state management and passing data down the widget tree.
-  hive and hive_flutter: for local data persistence.
-  flutter_launcher_icons and flutter_native_splash: for customizing the app's launcher icons and splash screen.
-  cupertino_icons: for iOS-style icons.
+dependencies:<br>
+  flutter:<br>
+    sdk: flutter<br>
+  flutter_localizations:<br>
+    sdk: flutter<br>
+  cupertino_icons: ^1.0.2<br>
+  flutter_launcher_icons: ^0.13.1<br>
+  http: ^0.13.0<br>
+  flutter_native_splash: ^2.3.0<br>
+  provider: ^6.0.5<br>
+  hive: ^2.2.3<br>
+  hive_flutter: ^1.1.0<br>
+  
+  
+  
+  http: for performing HTTP requests.<br>
+  provider: for state management and passing data down the widget tree.<br>
+  hive and hive_flutter: for local data persistence.<br>
+  flutter_launcher_icons and flutter_native_splash: for customizing the app's launcher icons and splash screen.<br>
+  cupertino_icons: for iOS-style icons.<br>
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
 
